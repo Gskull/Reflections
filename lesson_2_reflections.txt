@@ -1,0 +1,24 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When we initialize a repository, a .git named folder is created which keepstrack
+of commits that we will make to the files in the repository.
+It is needed to store the metadata of the history of commits done on the files 
+located in the repository.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+The working directory contains the actual files and the repository contains the 
+commited ones.
+Staging area is an intermediate stage which provides us an area where we can 
+select and put the files we want to commit before actually commiting them.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+We can use git diff --staged command to compare the changes between the staging
+area and the most recent commit. Thus we can double check the changes before
+commiting them. It is also possible to campare between staging area and the 
+working directory usimg git diff command. Thus after making one logical change 
+in the working directory, we add it to the stagingarea and then comapare the 
+change with the prevous commit to view the change before commiting.
