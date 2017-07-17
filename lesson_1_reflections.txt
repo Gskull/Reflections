@@ -1,0 +1,44 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+By viewing the diff, we are actually comparing the two versions of a file and thus we can see 
+what was changed in the newer version of the file which may have introduced the bug.
+
+How could having easy access to the entire history of a file make you a more efficient programmer
+in the long term?
+
+A change introduced today in a program may cause some problems in the future. Having an easy 
+access to the entire version history helps us to easily go back to a previous version, before 
+the change was made.
+
+What dot you think are the pros and cons of manually choosing when to create a commit, like you
+do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros: Manually saving as in Git ensures that each commit signifies a single complete logical
+change.
+Cons: Since we have to manually save the versions, the changes can sometimes be too big or too 
+small. We may even loose the changes we made if we forgot to save it.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit,
+while others, like Google Docs, treat each file separately?
+
+When adding a logical change, it is possible that more than one file could be affected, since they
+may be interdependent. Hence it makes more sense to save multiple files in one commit.
+
+How can you use the commands git log and git diff to view the history of files?
+
+The git log command is used to ciew all the commits done on the project. It shows an unique id
+and a short description for each commit.
+The git diff is used to compare the changes between two commits. It takes in two id as arguments, 
+one for the older commit and another for the newer commit.
+
+How might using version control make you more confident to make changes that could break something?
+
+By using version control, we have the flexibility to restore the code to a previous version. So,
+even if a bug were to be introduced in the code and we are not sure as to when and what caused the
+code to break, we can move back to a previous version, where the bug might have been introduced and
+use git diff ccommand to view the changes made in that commit.
+
+Now that you have your worlspace set up, what do you want to try using Git for?
+
+I would like to use Git while developing the webpage of my college. 
+Alongside, I would be using Git with the android apps that I would be creating. 
