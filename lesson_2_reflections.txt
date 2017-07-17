@@ -22,3 +22,14 @@ commiting them. It is also possible to campare between staging area and the
 working directory usimg git diff command. Thus after making one logical change 
 in the working directory, we add it to the stagingarea and then comapare the 
 change with the prevous commit to view the change before commiting.
+
+What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
+
+The default branch is the master. Sometimes, we may want to split our commits into
+various branches instead of taking a linear form. This is possible by using the git
+branch "branch-name" command, which creates a new branch with the specified branch 
+name. For some cases, like adding a new experimental feature or trying out a new 
+language or layout may require us to add new branches, because we may not be sure
+if these changes will work correctly and thus it makes sense to keep these away from
+the master branch.
