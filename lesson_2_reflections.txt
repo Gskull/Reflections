@@ -33,3 +33,9 @@ name. For some cases, like adding a new experimental feature or trying out a new
 language or layout may require us to add new branches, because we may not be sure
 if these changes will work correctly and thus it makes sense to keep these away from
 the master branch.
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams make it easy for us to identify the various branches and the parent of each
+commit. Viewing what commit is reachable from the current commit is possible through
+diagrams.
