@@ -39,3 +39,18 @@ How do the diagrams help you visualize the branch structure?
 Diagrams make it easy for us to identify the various branches and the parent of each
 commit. Viewing what commit is reachable from the current commit is possible through
 diagrams.
+
+What is the result of merging two branches together? Why do we represent it in the 
+diagram the way we do?
+
+Merging one branch into another makes the branch to posses the features of the other
+branch. The result of merging two branches is a single branch with two different 
+paths to its tip from the origin. That is why it was represented like that in the
+diagram.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+Git automatically merges two branches if there are no conflicts, i.e., the changes 
+on both the branches were not on the same part of the file.
+When a merge conflict arises, however, it requires the users to resolve the conflics
+before commiting them.
