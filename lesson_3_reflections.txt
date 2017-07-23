@@ -21,3 +21,18 @@ computer to another location within the computer to make our own changes to the 
 Fork is used to someone's repository from their GitHub account to our own GitHub account.
 This helps us to use their project and make our own commits to it without affecting their
 copy of the project.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Having a copy of last known state of the remote stored locally enable us to know what were
+the changes introduced locally which has yet to be synced with the remote. Basically, it 
+tells how the remote differs with the local commits.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would
+be harder?
+
+Without GitHub, I would tell my collaaborators to work on different features and later on,
+I would have to manually view and add all those changes into my project.
+This method is tedious and not even worthy. because, if a bug were to be introduced, I
+cannot go back to a previous version of the file if I don't already have it.
+Thus using GitHub is lot easier. 
