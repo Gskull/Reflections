@@ -3,3 +3,10 @@ When would you want to use a remote repository rather than keeping all your work
 When working with other people, it is a good idea to use a remote repository. So that
 others can view and add to our work by commiting their own changes. So basically, 
 using a remote repository is a great way to collaborate with other people.
+
+Why might you want to always pull changes manually rather than having Git automatically
+stay up-to-date with your remote repository?
+
+We might not want to pull all the commits done by all the different contributors. This 
+would not have been possible if GitHub allowed automatic pull. Manual pulling enable us
+to pull only that branch that include our desirable features or contents.
