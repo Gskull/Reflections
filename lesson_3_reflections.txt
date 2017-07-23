@@ -35,4 +35,15 @@ Without GitHub, I would tell my collaaborators to work on different features and
 I would have to manually view and add all those changes into my project.
 This method is tedious and not even worthy. because, if a bug were to be introduced, I
 cannot go back to a previous version of the file if I don't already have it.
-Thus using GitHub is lot easier. 
+Thus using GitHub is lot easier.
+
+When would you want to make changes in a separate branch rather than directly in master?
+What benefits does each apoproach have?
+
+When we are working with other collaborators, we might want to show them our changes
+before actually adding it to the master branch. In this case we can create a whole
+separate branch, add our changes to it, push it and use pull request to share it with
+other collaborators. This is helpful because we might not want to have something in the
+master branch that is not accepted by other people working on the project.
+In cases where we are directly making changes to the master branch,, the overhead of 
+making a pull request, which might cause merge conflict, is avoided. 
